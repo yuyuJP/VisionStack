@@ -12,6 +12,11 @@
 		E18704BA2BDF975B006DE1D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704B92BDF975B006DE1D7 /* ContentView.swift */; };
 		E18704BC2BDF975C006DE1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18704BB2BDF975C006DE1D7 /* Assets.xcassets */; };
 		E18704BF2BDF975C006DE1D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18704BE2BDF975C006DE1D7 /* Preview Assets.xcassets */; };
+		E18704C92BDF9845006DE1D7 /* StackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704C82BDF9845006DE1D7 /* StackingView.swift */; };
+		E18704CB2BDF9999006DE1D7 /* HandTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704CA2BDF9999006DE1D7 /* HandTrackingViewModel.swift */; };
+		E18704CE2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704CD2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift */; };
+		E18704D02BDFA589006DE1D7 /* DragRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704CF2BDFA589006DE1D7 /* DragRotationModifier.swift */; };
+		E18704D22BDFA654006DE1D7 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704D12BDFA654006DE1D7 /* SampleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E18704BB2BDF975C006DE1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E18704BE2BDF975C006DE1D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E18704C02BDF975C006DE1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E18704C82BDF9845006DE1D7 /* StackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackingView.swift; sourceTree = "<group>"; };
+		E18704CA2BDF9999006DE1D7 /* HandTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrackingViewModel.swift; sourceTree = "<group>"; };
+		E18704CD2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelEntity+Extension.swift"; sourceTree = "<group>"; };
+		E18704CF2BDFA589006DE1D7 /* DragRotationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragRotationModifier.swift; sourceTree = "<group>"; };
+		E18704D12BDFA654006DE1D7 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,11 @@
 		E18704B22BDF975B006DE1D7 /* VisionStack */ = {
 			isa = PBXGroup;
 			children = (
+				E18704CC2BDFA092006DE1D7 /* Helpler */,
 				E18704B72BDF975B006DE1D7 /* VisionStackApp.swift */,
 				E18704B92BDF975B006DE1D7 /* ContentView.swift */,
+				E18704C82BDF9845006DE1D7 /* StackingView.swift */,
+				E18704CA2BDF9999006DE1D7 /* HandTrackingViewModel.swift */,
 				E18704BB2BDF975C006DE1D7 /* Assets.xcassets */,
 				E18704C02BDF975C006DE1D7 /* Info.plist */,
 				E18704BD2BDF975C006DE1D7 /* Preview Content */,
@@ -79,6 +92,16 @@
 				E18704BE2BDF975C006DE1D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E18704CC2BDFA092006DE1D7 /* Helpler */ = {
+			isa = PBXGroup;
+			children = (
+				E18704CD2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift */,
+				E18704CF2BDFA589006DE1D7 /* DragRotationModifier.swift */,
+				E18704D12BDFA654006DE1D7 /* SampleModel.swift */,
+			);
+			path = Helpler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18704D02BDFA589006DE1D7 /* DragRotationModifier.swift in Sources */,
+				E18704CB2BDF9999006DE1D7 /* HandTrackingViewModel.swift in Sources */,
 				E18704BA2BDF975B006DE1D7 /* ContentView.swift in Sources */,
 				E18704B82BDF975B006DE1D7 /* VisionStackApp.swift in Sources */,
+				E18704CE2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift in Sources */,
+				E18704D22BDFA654006DE1D7 /* SampleModel.swift in Sources */,
+				E18704C92BDF9845006DE1D7 /* StackingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,5 +13,9 @@ struct VisionStackApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        ImmersiveSpace(id: "StackingSpace") {
+            StackingView()
+        }
     }
 }

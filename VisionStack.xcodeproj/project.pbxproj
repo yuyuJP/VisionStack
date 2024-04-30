@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70F52C0E2BE0AEC50027C861 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F52C0D2BE0AEC50027C861 /* ImmersiveView.swift */; };
 		E18704B62BDF975B006DE1D7 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E18704B52BDF975B006DE1D7 /* RealityKitContent */; };
 		E18704B82BDF975B006DE1D7 /* VisionStackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704B72BDF975B006DE1D7 /* VisionStackApp.swift */; };
 		E18704BA2BDF975B006DE1D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18704B92BDF975B006DE1D7 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70F52C0D2BE0AEC50027C861 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		E18704B02BDF975B006DE1D7 /* VisionStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E18704B42BDF975B006DE1D7 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		E18704B72BDF975B006DE1D7 /* VisionStackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionStackApp.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				E18704BB2BDF975C006DE1D7 /* Assets.xcassets */,
 				E18704C02BDF975C006DE1D7 /* Info.plist */,
 				E18704BD2BDF975C006DE1D7 /* Preview Content */,
+				70F52C0D2BE0AEC50027C861 /* ImmersiveView.swift */,
 			);
 			path = VisionStack;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				E18704D02BDFA589006DE1D7 /* DragRotationModifier.swift in Sources */,
 				E18704CB2BDF9999006DE1D7 /* HandTrackingViewModel.swift in Sources */,
+				70F52C0E2BE0AEC50027C861 /* ImmersiveView.swift in Sources */,
 				E18704BA2BDF975B006DE1D7 /* ContentView.swift in Sources */,
 				E18704B82BDF975B006DE1D7 /* VisionStackApp.swift in Sources */,
 				E18704CE2BDFA0A6006DE1D7 /* ModelEntity+Extension.swift in Sources */,
